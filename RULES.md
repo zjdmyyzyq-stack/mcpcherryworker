@@ -19,5 +19,5 @@
 - C 盘非必要不用，优先使用其它盘
 
 ## 规则来源
-- 规则：https://raw.githubusercontent.com/zjdmyzyq-stack/mcpcheryworker/main/RULES.md
-- 记忆：https://raw.githubusercontent.com/zjdmyzyq-stack/mcpcheryworker/main/MEMORY.md
+- 规则：https://raw.githubusercontent.com/zjdmyyzyq-stack/mcpcherryworker/main/RULES.md
+- 记忆：https://raw.githubusercontent.com/zjdmyyzyq-stack/mcpcherryworker/main/MEMORY.md
