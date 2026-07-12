@@ -1,0 +1,6 @@
+name = "mcp-db"
+compatibility_date = "2026-07-12"
+
+[[kv_namespaces]]
+binding = "MCP_DATA"
+id = "mcp-db"
