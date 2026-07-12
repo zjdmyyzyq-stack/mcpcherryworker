@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/cloudflare/wrangler/main/packages/wrangler/config-schema.json",
   "name": "mcp-db",
   "main": "worker.js",
-  "account_id": "",
+  "account_id": "2d18f80a9d5c7f1b9c317e2918e7f33b",
   "compatibility_date": "2026-07-12",
   "kv_namespaces": [
     {
       "binding": "MCP_DATA",
-      "id": ""
+      "id": "a6eb6be1f01f41a49f470af55d55260c"
     }
   ]
 }
