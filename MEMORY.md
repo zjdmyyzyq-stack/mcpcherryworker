@@ -5,10 +5,11 @@
 - V4 Pro 审查 + 截图嵌入 + Pandoc转换
 - MCP-DB Cloudflare Worker 部署
 - GitHub 共享仓库搭建
+- 抢号脚本 + 山药视频工具链已编写就绪
 
-## 进行中
-- 抢号脚本：等待主人提供医院信息后启动搭建
-- 山药视频营销：等待主人确认方案后启动搭建
+## 进行中（脚本已写好，等大金牛启动）
+- 抢号脚本：安卓模拟器+ADB+打码平台（D:\projects\booking-script\）
+- 山药视频营销：素材管理→脚本工厂→剪映助手（D:\projects\yam-video-factory\）
 
 ## 基础设施
 - Cloudflare Workers mcp-db 已部署（mcp.zjdmyzyq.com.cn）
