@@ -2,7 +2,7 @@
 
 > 本地权威源：`D:\\龙虾记忆\\工具与缓存\\cloud-registry\\rules\`
 > 云端 Worker：mcp-db（mcp.zjdmyzyq.com.cn）· KV: MCP_DATA
-> 生成时间：2026/9/4 11:29:24（本地零 token 脚本生成，规则变更后必须重建）
+> 生成时间：2026/9/4 11:59:04（本地零 token 脚本生成，规则变更后必须重建）
 
 ---
 
@@ -14,7 +14,7 @@
 | `dsh-plugin-review` | all | `af5358f46cf6` | DSH 插件安装前必须做「运行时」审查（key: dsh-plugin-review） |
 | `glossary_military_geopolitics` | all | `da901cf3ffae` | 国际军事与地缘政治专用名词中译对照表(合并版) |
 | `rule-openclaw-only` | openclaw-only | `6a1fa8077daa` | OpenClaw 专用规则（openclaw-only） |
-| `rule-run-all` | all | `9ea920bdd3d0` | 运行规则汇总（Token/模型/子代理/版本/盘符/文档/状态等） |
+| `rule-run-all` | all | `8a02cb4e3a8c` | 运行规则汇总（Token/模型/子代理/版本/盘符/文档/状态等） |
 | `rule-translation-all` | all | `0f72893baa4e` | 任务与规则：翻译（智库翻译 + 线索翻译 + 输出规则） |
 | `status_health` | all | `2e724154e25e` | 状态上报区（status_* 前缀） |
 | `tool-markdown-editor` | all | `998b055dfb73` | 工具备用：Markdown Editor（棱一 lengyi） |
@@ -2002,7 +2002,7 @@ visibility: all
 # 规矩：工作区读写边界（2026-08-14 修订版，2026-09-04 并入云端）
 
 > 下达人：大金牛；有效期：永久，适用所有会话、所有任务、所有智能体。
-> 原文：`D:\龙虾记忆\规矩.md`（vault 根目录，人读正本）。原文如修订，须同步更新本节并重跑 `sync_all_cloud.js --sync`。
+> 本节即唯一权威原文（2026-09-04：vault 根目录旧文件《规矩.md》全文并入后已删除，不再另设人读正本）。今后改规矩＝直接改本节 → `sync_all_cloud.js --sync` → `gen-cloud-summary.js` → `gh-push-cloud-docs.js`（云端 MCP + GitHub 双落地）。
 
 ## 一、只读/保留范围（仅此一处）
 - `D:\deepseek-harness` = DeepSeek Harness 实现目录（checkout），**只用于检查或扩展 DSH 本身**；不是任务工作区。
