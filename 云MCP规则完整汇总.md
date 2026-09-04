@@ -2,7 +2,7 @@
 
 > 本地权威源：`D:\\龙虾记忆\\工具与缓存\\cloud-registry\\rules\`
 > 云端 Worker：mcp-db（mcp.zjdmyzyq.com.cn）· KV: MCP_DATA
-> 生成时间：2026/9/4 11:59:04（本地零 token 脚本生成，规则变更后必须重建）
+> 生成时间：2026/9/4 16:23:13（本地零 token 脚本生成，规则变更后必须重建）
 
 ---
 
@@ -10,7 +10,7 @@
 
 | key | visibility | 本地 hash | 说明 |
 |---|---|---|---|
-| `dsh-agent-memory` | openclaw-only | `fd0c7e989741` | DSH Agent 记忆 / Onboarding（key: dsh-agent-memory） |
+| `dsh-agent-memory` | openclaw-only | `8286172794d0` | DSH Agent 记忆 / Onboarding（key: dsh-agent-memory） |
 | `dsh-plugin-review` | all | `af5358f46cf6` | DSH 插件安装前必须做「运行时」审查（key: dsh-plugin-review） |
 | `glossary_military_geopolitics` | all | `da901cf3ffae` | 国际军事与地缘政治专用名词中译对照表(合并版) |
 | `rule-openclaw-only` | openclaw-only | `6a1fa8077daa` | OpenClaw 专用规则（openclaw-only） |
@@ -68,6 +68,7 @@ visibility: openclaw-only
 - 临时产物/备份归 D:\龙虾记忆\工具与缓存\，不散落业务根目录
 
 ## 五、待办/提醒
+- 2026-09-04 军事线索翻译**质检低分口径改为 ≤4.5 分**（原 ≤4）。历史两份低分清单已回源重算并合并为唯一正本 `翻译输出/质检低分清单-合并版.md`（第〇节为对账表，今后统计以它为准）；`工作台/翻译进度看板.md` 已同步。权威数字：剔作废批 1-99 后 2589 篇有分 / 1029 篇低分 / 均分 4.57；作废批内另 157 篇单列。重算源＝`临时产物/检查结果/batch-*-result.json`（370 文件 / 3691 行，按 basename 去重取最新 ts）。
 - DSH 后续更新与龙虾既有「三文档联动」（规则台账/汇总/看板）机制保持一致。
 - 微信 ClawBot 接入（2026-09-04 起由 DSH 操作）：OpenClaw 侧解绑已完成（channels list 已空）；DSH 侧待办＝启动网关→channels login 出二维码（**须大金牛本人手机微信扫码，机器不可代扫**）→pairing approve 批准首个私信→验证私信路由后汇报。细节与红线见本机 DSH 记忆主地图；原交接文档已按规矩删除。
 
